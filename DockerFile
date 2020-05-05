@@ -1,8 +1,4 @@
-FROM ubantu
-
-MAINTAINER USHA
-
-run apt-get update
+FROM alpine
 
 CMD ["echo","Hello-world...! from my first docker image"]
 
